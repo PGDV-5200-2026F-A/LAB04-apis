@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Lab04 - Warmup</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="../utils/keys.0.js" defer></script>
+    <script src="../utils/llmUtils.js" defer></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <section>
+      <h3>Latitude / Longitude</h3>
+      <input type="text" id="city-name" placeholder="Enter city name">
+      <button id="find-coords">Find Latitude / Longitude</button>
+      <p>
+        <span id="lat-result"></span> <span id="lon-result"></span>
+      </p>
+    </section>
+
+    <section>
+      <h3>NYT</h3>
+      <input type="text" id="nyt-query" placeholder="Enter query term">
+      <button id="find-news">Find News</button>
+    </section>
+
+    <section>
+      <h3>Smithsonian</h3>
+      <input type="text" id="si-query" placeholder="Enter query term">
+      <button id="find-objects">Find Objects</button>
+    </section>
+  </body>
+</html>
